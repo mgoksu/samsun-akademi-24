@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/233f8f2c-1ea7-434b-9160-d58078af6c67
 
 Tarayıcınızdan terminalde gösterilen Local URL adresine gidin. Muhtemelen `http://localhost:8501` olarak gelecek.
 
-## PDF ile sohbet robotunu çalıştırmak için:
+### PDF ile sohbet robotunu çalıştırmak için:
    Bakınız:  [https://github.com/mgoksu/Chat-PDF-for-turkish](https://github.com/mgoksu/Chat-PDF-for-turkish)
 
 
