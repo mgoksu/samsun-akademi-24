@@ -7,8 +7,8 @@ def distribute_participants(csv_file, num_tables):
     df = pd.read_csv(csv_file, sep=';')
     
     # Katılımcıları karıştırın
-    df = df.sample(frac=1).reset_index(drop=True)
-    
+    df = df.sample(frac=1, random_state=123456).reset_index(drop=True)
+
     # Her masaya atanacak katılımcı sayısını hesaplayın
     participants_per_table = len(df) // num_tables
     extra_participants = len(df) % num_tables
@@ -51,12 +51,12 @@ def print_table_stats(table_dfs):
         print()
 
 # Kullanım örneği
-csv_file = 'participants.csv'  # CSV dosyanızın adını buraya girin
-num_tables = 5  # İstediğiniz masa sayısını buraya girin
+csv_file = './OKA Katılımcılar.csv'  # CSV dosyanızın adını buraya girin
+num_tables = 7 # İstediğiniz masa sayısını buraya girin
 
 table_dfs = distribute_participants(csv_file, num_tables)
 print_table_stats(table_dfs)
 
 # İsterseniz, sonuçları ayrı CSV dosyalarına kaydedebilirsiniz
 for i, df in enumerate(table_dfs):
-    df.to_csv(f'masa_{i+1}.csv', index=False, sep=';')
+    df.to_csv(f'masa_{i+1}.csv', index=False, sep=';', encoding='utf-8-sig')
