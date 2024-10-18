@@ -17,5 +17,6 @@
    streamlit run app_local.py
    ```
    
+https://github.com/user-attachments/assets/233f8f2c-1ea7-434b-9160-d58078af6c67
 
 4. Tarayıcınızdan terminalde gösterilen Local URL adresine gidin. Muhtemelen `http://localhost:8501` olarak gelecek.
