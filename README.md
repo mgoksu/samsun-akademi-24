@@ -25,3 +25,7 @@ Tarayıcınızdan terminalde gösterilen Local URL adresine gidin. Muhtemelen `h
 ## PDF ile sohbet robotunu çalıştırmak için:
    Bakınız:  [https://github.com/mgoksu/Chat-PDF-for-turkish](https://github.com/mgoksu/Chat-PDF-for-turkish)
 
+
+https://github.com/user-attachments/assets/70200db1-7d2f-48f5-818f-f934d7bd0d97
+
+
