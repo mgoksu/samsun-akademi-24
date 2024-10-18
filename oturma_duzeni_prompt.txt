@@ -1,0 +1,3 @@
+Elimde katılımcıların listelendiği bir noktalı virgül (;) ile ayrılan bir csv dosyası var. CSV kolonlarında katılımcıların her biri için AD SOYAD, BRANŞ, İLÇE ve OKUL bilgisi var.
+Katılımcıları n tane masaya yerleştirmek istiyorum. Her bir masada katılımcıların mümkün olduğunca farklı BRANŞ, İLÇE ve OKUL'dan olmasını istiyorum.
+Her masada mümkün olduğunca eşit sayıda katılımcı olmasını istiyorum. CSV dosyası verildiğinde bu işlemi Pandas kütüphanesiyle yapan bir Python uygulaması yazar mısın?
