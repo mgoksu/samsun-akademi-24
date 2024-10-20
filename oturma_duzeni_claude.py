@@ -51,7 +51,7 @@ def print_table_stats(table_dfs):
         print()
 
 # Kullanım örneği
-csv_file = './OKA Katılımcılar.csv'  # CSV dosyanızın adını buraya girin
+csv_file = './OKA Katılımcılar_w_name.csv'  # CSV dosyanızın adını buraya girin
 num_tables = 7 # İstediğiniz masa sayısını buraya girin
 
 table_dfs = distribute_participants(csv_file, num_tables)
