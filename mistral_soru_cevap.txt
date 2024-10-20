@@ -1,0 +1,61 @@
+Soru:Verilen metinden 10 tane çoktan seçmeli soru hazırla.
+
+1. Bilgi nedir?
+   a) İnsan zekâsının çalışması sonucu ortaya çıkan düşünce ürünüdür.
+   b) İnsanoğlunun tasarlayarak ürettiği aletlerdir.
+   c) Bilgisayarın çalışması için gerekli olan programlardır.
+   d) Bilgisayarın donanım parçalarıdır.
+
+2. Bilişim Teknolojilerinin amaçlarından hangisi yanlıştır?
+   a) Bilgiye kolay ulaşmayı sağlamak
+   b) Maliyeti azaltmak
+   c) Hayatımızı kolaylaştırmak
+   d) Bilgiye zor ulaşmayı sağlamak
+
+3. Teknolojinin yararlarından hangisi yanlıştır?
+   a) Bilgiye çok hızlı bir şekilde ve daha ucuza ulaşılıyor.
+   b) Sağlık alanında hastalıkların anlaşılması daha hızlı ve güvenilir şekilde olabilmektedir.
+   c) Eğitim-öğretim imkânları azalmıştır.
+   d) Bir yerden bir yere ulaşım daha hızlı ve daha konforlu hale gelmiştir.
+
+4. Teknolojinin zararlarından hangisi yanlıştır?
+   a) Çevreye zarar veren gazlar, atıklar çoğalmış, denizler ve doğa kirlenmeye başlamıştır.
+   b) Yeryüzünde bulunan hayvan ve bitki türleri artmıştır.
+   c) İşsizlik artmıştır.
+   d) Küresel ısınmadan dolayı dünyanın dengesi bozulmuştur.
+
+5. Bilgisayar kullanırken dikkat edilmesi gereken noktalardan hangisi yanlıştır?
+   a) Yüksekliği ayarlanabilir, sırtı bele uygun ve esnek bir ergonomik koltukta oturulmalıdır.
+   b) Dik oturulmalı ve sırt desteklenmelidir.
+   c) Monitörün üst kenarı ile göz hizasının aynı seviyede olmasına dikkat edilmelidir.
+   d) Monitörden 10-20 cm uzakta oturulmalıdır.
+
+6. Elektrik kablolarının güvenliği açısından önemli olan hususlardan hangisi yanlıştır?
+   a) Elektrik kablolarının hasarlı, yırtılmış veya delik olmamasına dikkat edilmelidir.
+   b) Elektrik kablolarının ve prizlerin topraklı olmamasına dikkat edilmelidir.
+   c) Genelde TSE standardı olan kablolar kullanılmalıdır.
+   d) Mümkünse nemin olmadığı bir ortam tercih edilmelidir.
+
+7. Bilgi toplumu nedir?
+   a) Temel üretim faktörünün bilgi olduğu, bilginin işlenmesinde ve depolanmasında da bilgisayar ve iletişim teknolojilerini baz alan bir toplum yapısıdır.
+   b) Temel üretim faktörünün tarım olduğu bir toplum yapısıdır.
+   c) Temel üretim faktörünün sanayi olduğu bir toplum yapısıdır.
+   d) Temel üretim faktörünün hizmet olduğu bir toplum yapısıdır.
+
+8. Dijital vatandaşlık nedir?
+   a) Dijital vatandaşlık en genel kapsamda teknoloji kullanımına ilişkin davranış normları olarak tanımlanmaktadır.
+   b) Dijital vatandaşlık, teknolojiyi kullanırken etik ve uygun davranışlarda bulunma ve bu konuda bilgilenmeyi içermektedir.
+   c) Dijital vatandaşlık, teknolojiyi kullanırken etik ve uygun davranışlarda bulunma ve bu konuda bilgilenmeyi içermektedir.
+   d) Dijital vatandaşlık, teknolojiyi kullanırken etik ve uygun davranışlarda bulunma ve bu konuda bilgilenmeyi içermektedir.
+
+9. Donanım nedir?
+   a) Bilgisayarın çalışması için gerekli olan, elle tutulup gözle görülen bilgisayar parçalarına denir.
+   b) Bilgisayarın çalışması için gerekli olan programlara denir.
+   c) Bilgisayarın çalışması için gerekli olan verilere denir.
+   d) Bilgisayarın çalışması için gerekli olan ağ bağlantılarına denir.
+
+10. Yazılım nedir?
+    a) Bilgisayarın çalışması için gerekli olan programlara denir.
+    b) Bilgisayarın çalışması için gerekli olan donanım parçalarına denir.
+    c) Bilgisayarın çalışması için gerekli olan verilere denir.
+    d) Bilgisayarın çalışması için gerekli olan ağ bağlantılarına denir.
