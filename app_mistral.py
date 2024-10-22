@@ -2,24 +2,20 @@
 import streamlit as st
 from htmlTemplates import css, bot_template, user_template
 from mistralai import Mistral
-from dotenv import load_dotenv
 import os
 
 from util import read_pdf_content
 
-load_dotenv()
-
-
 PROMPT_TEMPLATE = (
     "Bağlam:{context}\n\nSoru:{instruction}\n"
 )
-MISTRAL_API_KEY=os.getenv("MISTRAL_API_KEY")
-AGENT_ID=os.getenv("AGENT_ID")
+MISTRAL_API_KEY=""
+AGENT_ID=""
 CLIENT=Mistral(api_key=MISTRAL_API_KEY)
 # Verilen metinden 10 tane çoktan seçmeli soru hazırla.
 
 def prepare_prompt(query):
-    context = st.texts
+    context = st.session_state.texts
     prompt = PROMPT_TEMPLATE.format_map({'instruction': query, 'context': context})
     return prompt
 
@@ -40,7 +36,7 @@ def handle_question(question):
             st.write(bot_template.replace("{{MSG}}",msg),unsafe_allow_html=True)
     
     prompt = prepare_prompt(question)
-    print(prompt)
+    # print(prompt)
     st.session_state.chat_history.append(question)
     st.write(user_template.replace("{{MSG}}",question),unsafe_allow_html=True)
 
@@ -54,6 +50,9 @@ def handle_question(question):
         ]
     )
 
+    # print(MISTRAL_API_KEY)
+    # print(AGENT_ID)
+    # response = question
     response = chat_response.choices[0].message.content
     print(response)
     st.session_state.chat_history.append(response)
@@ -63,7 +62,7 @@ def main():
     st.write(css,unsafe_allow_html=True)
 
     if "texts" not in st.session_state:
-        st.session_state.texts = None
+        st.session_state.texts = ""
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history=[]
@@ -81,7 +80,7 @@ def main():
                 # load the pdf
                 raw_text = read_pdf_content(docs)
                 
-                st.texts = raw_text
+                st.session_state.texts = raw_text
 
 
 if __name__ == '__main__':
