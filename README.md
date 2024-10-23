@@ -29,7 +29,7 @@ Tarayıcınızdan terminalde gösterilen Local URL adresine gidin. Muhtemelen `h
 https://github.com/user-attachments/assets/70200db1-7d2f-48f5-818f-f934d7bd0d97
 
 ## API yardımıyla
-.env dosyasına `MISTRAL_API_KEY` ve `AGENT_ID` bilgilerini girdikten sonra
+app_mistral.py dosyasındaki `MISTRAL_API_KEY` ve `AGENT_ID` bilgilerini girdikten sonra
 ### Sohbet robotunu çalıştırmak için:
    ```bash
    streamlit run app_mistral.py
